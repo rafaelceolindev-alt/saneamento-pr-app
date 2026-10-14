@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- 🔹 Permite HTTP (sem HTTPS) e certificados não reconhecidos em ambiente de testes -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">10.0.2.2</domain> <!-- Emulador acessando localhost -->
+        <domain includeSubdomains="true">192.168.0.21</domain> <!-- Caso teste via rede local -->
+        <domain includeSubdomains="true">viacep.com.br</domain>
+        <domain includeSubdomains="true">paranainterativo.pr.gov.br</domain>
+    </domain-config>
+
+    <!-- 🔹 Permite conexões não seguras genéricas (testes) -->
+    <base-config cleartextTrafficPermitted="true" />
+</network-security-config>

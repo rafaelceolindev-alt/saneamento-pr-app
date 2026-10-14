@@ -1,0 +1,21 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Cor de fundo do campo -->
+    <solid android:color="@android:color/white" />
+
+    <!-- Borda azul escura -->
+    <stroke
+        android:width="2dp"
+        android:color="@color/sanep_blue_dark" />
+
+    <!-- Bordas arredondadas -->
+    <corners android:radius="8dp" />
+
+    <!-- Espaçamento interno -->
+    <padding
+        android:left="8dp"
+        android:right="8dp"
+        android:top="4dp"
+        android:bottom="4dp" />
+</shape>

@@ -1,0 +1,13 @@
+<resources>
+    <!-- Cores principais da identidade -->
+    <color name="teal_200">#80CBC4</color>
+    <color name="teal_700">#00796B</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color><!-- Fundo azul claro -->
+    <color name="sanep_blue_primary">#0077C8</color>   <!-- Azul SANEPAR -->
+    <color name="sanep_blue_light">#03A9F4</color>
+    <color name="sanep_blue_dark">#0288D1</color>
+    <color name="sanep_green">#4CAF50</color>
+    <!-- Azul escuro -->
+
+</resources>

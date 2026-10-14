@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Saneamento PR</string>
+    <string name="icone_saneamento">Ícone de saneamento</string>
+    <string name="titulo_app">Consulta Saneamento PR</string>
+    <string name="digite_cep">Digite o CEP (8 dígitos)</string>
+    <string name="buscar_dados">Buscar Dados</string>
+    <string name="conectando_dados">Conectando dados do Paraná Interativo...</string>
+    <string name="titulo_splash">Saneamento PR</string>
+    <string name="carregando_endereco">Carregando endereço…</string>
+    <string name="voltar">⬅️ Voltar</string>
+
+</resources>
