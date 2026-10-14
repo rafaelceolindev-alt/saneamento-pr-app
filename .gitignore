@@ -1,0 +1,18 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Banco local com o histórico de consultas
+*.db
+
+# IDE
+.idea/
+
+# Android (complementa o .gitignore do projeto Android)
+.kotlin/
+build/
+local.properties
+*.apk
+hs_err_pid*.log
+replay_pid*.log
